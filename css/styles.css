@@ -1,0 +1,481 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+
+Color Codes 
+white:#ffffff
+yellow:#ffff00
+chocklate:#d2691e
+darkkhaki:#bdb76b
+cadetblue:#5f9ea0
+brown:#a52a2a
+*/
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');
+
+body
+{
+    max-width: 100rem;
+    background-color: white;
+    font-size: 0.618rem;
+    line-height: 1.4rem;
+    font-family: 'Roboto',sans-serif;
+    
+}
+
+.logo
+{
+    width: 100%;
+    
+}
+.logo figure img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 100px;
+}
+
+
+header
+{
+    margin: 1rem;
+    
+}
+header ul
+{
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+header ul li
+{
+    border: 1px solid white;
+    background-color: chocolate;
+}
+
+header ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 0.618rem;
+    font-family: 'Merriweather', serif;
+   
+    font-weight: 600;
+    padding: 1rem 0 1rem 0;
+    text-shadow: 1px 1px 1px black;
+}
+
+header ul li a:hover
+{
+    color: yellow;
+    text-shadow: 1px 1px 1px black;
+   
+    
+}
+.active
+{
+    color: yellow;
+}
+
+
+.masthead
+{
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px black;
+    background-image: url("../img/bg.jpg");
+    clear: both;
+  
+}
+.masthead p
+{
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    padding-top: 80px;
+    color: white;
+}
+
+.auther
+{
+    text-align: right;
+    margin: 1rem 0 0 1rem;
+    font-style: italic;
+}
+
+ main
+{
+    margin: 2rem 1rem 1rem 1rem;
+    clear: both;
+}
+article
+{
+    clear: both;
+    margin: 1rem 0 1rem 0;
+}
+article figure img
+{
+    width: 100%;
+    padding: 0 1rem 1rem 1rem;
+   
+}
+.title
+{
+    color: cadetblue;
+    font-family: 'Merriweather',serif;
+    font-weight: 600;
+    margin: 2rem 0 1rem 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+form
+{
+    width: 100%;
+    
+}
+form input
+{
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+form textarea
+{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+}
+.container
+{
+    clear: both;
+    margin-top: 2rem;
+}
+
+
+.feedback
+{
+    clear: both;
+    margin-top: 2rem;
+    
+}
+
+footer
+{
+    width: 100%;
+    background-color: darkkhaki;
+    clear: both;
+}
+.footerlogo
+{
+    display: none;
+}
+.social
+{
+    margin: 1rem;
+}
+.social a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    width: 23.5%;
+    text-align: center;
+}
+.social a i
+{
+    color: white;
+    padding: 1rem;
+}
+
+.address
+{
+    list-style-type: none;
+    
+}
+.address li
+{
+    width: 100%;
+    text-align: center;
+    padding: 0.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.618rem;
+    
+}
+.address li:first-child
+{
+        color:brown;
+        font-size:1.2rem;
+        font-weight:600;
+    
+}
+/*Tablet*/
+
+@media only screen and (min-width: 35rem) 
+{
+    body
+    {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        font-family: 'Roboto',sans-serif;
+    }
+    .logo figure img
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+        height: 200px;
+    }
+
+    header ul li
+    {
+        display: inline-block;
+        width: 49%;
+        font-size: 1rem;
+        
+    }
+    header ul li a
+    {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        font-size: 1rem;
+
+    }
+    
+    .masthead
+    {
+        margin: 1rem 0 1rem 0;
+        
+    }
+   
+    .masthead p
+    {
+        font-size: 2.2rem;
+    }
+ 
+     main
+    {
+        margin: 2rem 1rem 1rem 1rem;
+       
+    }
+     article figure img
+    {
+        float: left;
+        width: 40%;
+    }
+    form input
+    {
+        width: 40%;
+        float: left;
+        clear: both;
+        padding: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+    form textarea
+    {
+        width: 55%;
+        padding: 1rem;
+        margin: 0 0 0 1rem;
+        height: 160px;
+        
+    }
+
+    footer
+    {
+        clear: both;
+      
+    }
+  
+    .social
+    {
+        margin: 2rem;
+    }
+    
+        
+    
+    .social a i
+    {
+        font-size: 40px;
+        padding: 1rem;
+    }
+    
+    .address
+    {
+        width: 40%;
+        float: left;
+    }
+    .footerlogo
+    {
+        display: block;
+        
+    }
+    .footerlogo figure img
+    {
+        width: 30%;
+        height: 200px;
+         
+      
+    }
+ 
+    .address li
+    {
+        
+        padding: 1rem;
+        font-size: 1rem;
+
+    }
+    .address li:first-child
+    {
+       
+        font-size:1.4rem;
+    }
+
+    
+}
+
+
+/*Desktop */
+
+@media only screen and (min-width: 80rem) 
+{
+    
+    body
+    {
+        font-size: 1.618rem;
+        font-family: 'Roboto',sans-serif;
+        line-height: 1.6rem;
+    }
+    .logo
+    {
+        float: left;
+        width: 10%;
+    }
+
+    .logo figure img
+    {
+        width: 100%;
+        height: 100px;
+        margin-left: -2rem;
+        margin-bottom: 2rem;
+    }
+    header
+    {
+        margin: 2rem 10rem 0 10rem;
+       
+    }
+   
+   
+    header ul li
+    {
+        display: inline-block;
+        width: 20%;
+        
+    }
+    header ul li a
+    {
+        display: inline-block;
+        text-align: center;
+        font-size: 1.618rem;
+    
+    }
+    .masthead
+    {
+        margin: 1rem 0 1rem 0;
+    
+    }
+    .masthead p
+    {
+        font-size: 2.3rem;
+        text-align: left;
+        padding-left: 10rem;
+    }
+  
+     main
+    {
+        margin: 2rem 10rem 0 10rem;
+       
+       
+    }
+    article
+    {
+        font-size: 1.2rem;
+    }
+    .a1
+    {
+        width: 100%;
+    }
+    .a2
+    {
+        float: left;
+        display: block;
+        width: 45%;
+    }
+    .a3
+    {
+        clear: none;
+        display: block;
+        width: 45%;
+        float: left;
+        margin-left: 9%;
+    }
+    
+    .title
+    {
+        
+        text-align: left;
+    }
+    footer
+    {
+        clear: both;
+    }
+      .social
+    {
+        margin: 2rem 10rem 2rem 10rem;
+    }
+    
+        
+    
+    .social a i
+    {
+        font-size: 42px;
+        padding: 1rem;
+    }
+    
+    .footerlogo figure img
+    {
+        width: 35%;
+        height: 300px;
+         
+      
+    }
+ 
+   
+    .address li
+    {
+        
+        padding: 1rem;
+        font-size: 1.618rem;
+    }
+    
+    .address li:first-child
+    {
+       
+        font-size:1.8rem;
+    }
+
+}
